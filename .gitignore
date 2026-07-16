@@ -1,0 +1,29 @@
+# Virtuális környezet (Ezzel eltűnik a 6000+ felesleges fájl!)
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache és futtatási fájlok
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# macOS rendszerfájlok
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ADATVÉDELEM ÉS GDPR BIZTONSÁG:
+# Kizárunk minden valós Excel és adatfájlt, hogy véletlenül se szivárogjon ki semmi!
+*.xlsx
+*.xls
+*.csv
+output/
+
+# Ha a samples mappában csak FAKE (kamu) adatok vannak a teszteléshez,
+# akkor azt engedélyezhetjük, de ha igazi adatok vannak ott, akkor azt is zárd ki:
+# samples/
