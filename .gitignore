@@ -27,3 +27,8 @@ output/
 # Ha a samples mappában csak FAKE (kamu) adatok vannak a teszteléshez,
 # akkor azt engedélyezhetjük, de ha igazi adatok vannak ott, akkor azt is zárd ki:
 # samples/
+
+# PyInstaller build és output mappák
+build/
+dist/
+*.spec
